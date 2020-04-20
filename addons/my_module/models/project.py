@@ -16,6 +16,7 @@ class Project(models.Model):
         default="progress",
     )
     tag_ids = fields.Many2many("project.tag", string="Custom Tags",)
+    task_ids = fields.One2many(comodel_name="task", inverse_name="project_id", string="Tasks")
 
     def action_approve(self):
         for project in self:
