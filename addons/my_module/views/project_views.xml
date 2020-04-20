@@ -20,6 +20,7 @@
                             <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
                             <field name="date_from"/>
                             <field name="date_to"/>
+                            <field name="duration"/>
                         </group>
                         <group>
                             <field name="state"/>

@@ -17,6 +17,13 @@ class Project(models.Model):
     )
     tag_ids = fields.Many2many("project.tag", string="Custom Tags",)
     task_ids = fields.One2many(comodel_name="task", inverse_name="project_id", string="Tasks")
+    duration = fields.Float(string="Duration", compute="_compute_duration")
+
+    @api.depends('date_from', 'date_to')
+    def _compute_duration(self):
+        for project in self:
+            if project.date_from and project.date_to:
+                project.duration = ((project.date_to - project.date_from).total_seconds()) / (24 * 60 * 60)
 
     def action_approve(self):
         for project in self:
