@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Fist Level Menu -->
+    <menuitem name="My Module" id="menu_my_module_root" sequence="01"/>
+
+    <!-- Second Level Menu -->
+    <!-- <menuitem id="menu_oovideo_config" name="Configuration" parent="menu_oovideo_root" sequence="100"/> -->
+</odoo>

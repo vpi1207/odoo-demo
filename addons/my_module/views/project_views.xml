@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="action_project" model="ir.actions.act_window">
+        <field name="name">Projects</field>
+        <field name="res_model">project</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form,pivot</field>
+        <!-- <field name="domain">[('root', '=', True)]</field> -->
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Set up your projects
+            </p><p>
+                Blablabla my projects
+            </p>
+        </field>
+    </record>
+
+    <!-- Second Level Menu -->
+    <menuitem id="menu_my_module_project" name="Projects" parent="menu_my_module_root" action="action_project"/>
+</odoo>
