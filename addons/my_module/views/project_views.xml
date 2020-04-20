@@ -42,6 +42,22 @@
         </field>
     </record>
 
+        <record id="project_view_search" model="ir.ui.view">
+            <field name="name">project.search</field>
+            <field name="model">project</field>
+            <field name="arch" type="xml">
+                <search string="Search modules">
+                    <field name="name"/>
+                    <field name="user_id"/>
+                    <filter name="approved" string="Approved" domain="[('state', '=', 'approved')]"/>
+                    <filter name="rejected" string="Rejected" domain="[('state', '=', 'rejected')]"/>
+                    <group expand="0" string="Group By">
+                        <filter string="Owner" name="owner" domain="[]" context="{'group_by':'user_id'}"/>
+                    </group>
+               </search>
+            </field>
+        </record>
+
     <record id="action_project" model="ir.actions.act_window">
         <field name="name">Projects</field>
         <field name="res_model">project</field>
