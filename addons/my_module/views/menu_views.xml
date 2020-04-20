@@ -4,5 +4,5 @@
     <menuitem name="My Module" id="menu_my_module_root" sequence="01"/>
 
     <!-- Second Level Menu -->
-    <!-- <menuitem id="menu_oovideo_config" name="Configuration" parent="menu_oovideo_root" sequence="100"/> -->
+    <menuitem id="menu_my_module_project_second" name="Projects" parent="menu_my_module_root"/>
 </odoo>

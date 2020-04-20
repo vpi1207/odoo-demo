@@ -17,6 +17,7 @@
                     </div>
                     <group>
                         <group>
+                            <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
                             <field name="date_from"/>
                             <field name="date_to"/>
                         </group>
@@ -37,7 +38,8 @@
             <tree string="Proejct" decoration-danger="state == 'rejected'">
                 <field name="state" invisible="1"/>
                 <field name="name"/>
-                <field name="date_to"/>
+                <field name="date_from"/>
+                <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
             </tree>
         </field>
     </record>
@@ -73,6 +75,6 @@
         </field>
     </record>
 
-    <!-- Second Level Menu -->
-    <menuitem id="menu_my_module_project" name="Projects" parent="menu_my_module_root" action="action_project"/>
+    <!-- Third Level Menu -->
+    <menuitem id="menu_my_module_project_third" name="Projects" parent="menu_my_module_project_second" action="action_project"/>
 </odoo>
