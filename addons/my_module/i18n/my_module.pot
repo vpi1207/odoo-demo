@@ -1,0 +1,134 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* my_module
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server v3.0.0\n"
+"\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-20 20:04+0000\n"
+"PO-Revision-Date: 2020-04-20 20:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: my_module
+#: model_terms:ir.ui.view,arch_db:my_module.project_view_form
+msgid "Approve"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields.selection,name:my_module.selection__project__state__approved
+msgid "Approved"
+msgstr ""
+
+#. module: my_module
+#: model_terms:ir.actions.act_window,help:my_module.action_project
+msgid "Blablabla my projects"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__date_to
+msgid "End Date"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__id
+msgid "ID"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields.selection,name:my_module.selection__project__state__progress
+msgid "In Progress"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: my_module
+#: model:ir.ui.menu,name:my_module.menu_my_module_root
+msgid "My Module"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__name
+#: model_terms:ir.ui.view,arch_db:my_module.project_view_form
+msgid "Name"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__user_id
+msgid "Owner"
+msgstr ""
+
+#. module: my_module
+#: model_terms:ir.ui.view,arch_db:my_module.project_view_tree
+msgid "Proejct"
+msgstr ""
+
+#. module: my_module
+#: model_terms:ir.ui.view,arch_db:my_module.project_view_form
+msgid "Project"
+msgstr ""
+
+#. module: my_module
+#: model:ir.actions.act_window,name:my_module.action_project
+#: model:ir.ui.menu,name:my_module.menu_my_module_project
+msgid "Projects"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields.selection,name:my_module.selection__project__state__rejected
+msgid "Rejected"
+msgstr ""
+
+#. module: my_module
+#: model_terms:ir.actions.act_window,help:my_module.action_project
+msgid "Set up your projects"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__date_from
+msgid "Start Date"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model.fields,field_description:my_module.field_project__state
+msgid "Status"
+msgstr ""
+
+#. module: my_module
+#: model:ir.model,name:my_module.model_project
+msgid "The project of my module"
+msgstr ""
