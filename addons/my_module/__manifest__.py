@@ -5,6 +5,7 @@
     "depends": ["base", "web"],
     "data": [
         "security/ir.model.access.csv",
+        "data/project_data.xml",
         "views/menu_views.xml",
         "views/project_views.xml",
     ],
