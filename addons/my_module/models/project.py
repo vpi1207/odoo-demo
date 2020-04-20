@@ -21,6 +21,7 @@ class Project(models.Model):
 
     @api.depends('date_from', 'date_to')
     def _compute_duration(self):
+        self.duration = 0
         for project in self:
             if project.date_from and project.date_to:
                 project.duration = ((project.date_to - project.date_from).total_seconds()) / (24 * 60 * 60)
