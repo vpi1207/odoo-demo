@@ -1,0 +1,13 @@
+val@val-VirtualBox ~/s/o/a/my_module> wc -l **.py
+   1 __init__.py
+  15 __manifest__.py
+   2 models/__init__.py
+  40 models/project.py
+  12 models/task.py
+  70 total
+val@val-VirtualBox ~/s/o/a/my_module> wc -l **.xml
+  16 data/project_data.xml
+   8 views/menu_views.xml
+  90 views/project_views.xml
+ 114 total
+
